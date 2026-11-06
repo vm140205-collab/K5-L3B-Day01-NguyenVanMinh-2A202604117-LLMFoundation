@@ -1,0 +1,45 @@
+{
+ "seed": 3936,
+ "predictions": {
+  "ml_f1": {
+   "text": "F1 khoảng 0.9, precision cao hơn recall vì spam bị lỗi chính tả hoặc né từ khoá sẽ lọt qua",
+   "time": "16:43:27"
+  },
+  "ml_lr": {
+   "text": "lr=0.001: bước quá nhỏ, sau 300 epoch loss vẫn cao, lr=50: bước quá to, nhảy qua đáy, loss dao động/không giảm.",
+   "time": "16:49:53"
+  }
+ },
+ "checks": {
+  "1.1 vectorize": true,
+  "1.2 sigmoid / predict_proba": true,
+  "1.3 train_logreg": true,
+  "1.4 metrics": true,
+  "2.1 build_mlp": true,
+  "2.2 train_mlp": false
+ },
+ "experiments": [
+  {
+   "key": "ml_f1",
+   "time": "16:43:42"
+  },
+  {
+   "key": "ml_lr",
+   "time": "16:49:56"
+  }
+ ],
+ "results": {
+  "1. BoW + LogReg (tự code)": {
+   "accuracy": 0.8748387096774194,
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "f1_SUB": 0.0,
+   "train_s": 8.420148701000016,
+   "msg_per_s": 75831.65060422145,
+   "p50_ms": 0.04808100015907257,
+   "p95_ms": 0.07295754976439633,
+   "usd_per_1k": 0.0
+  }
+ }
+}
