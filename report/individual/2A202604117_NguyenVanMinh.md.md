@@ -4,7 +4,7 @@
 
 - **MSSV:** 2A202604117
 - **Họ và tên:** Nguyễn Văn Minh
-- **SEED** (in ở ô đầu notebook):
+- **SEED** (in ở ô đầu notebook):3936
 
 ## 1. Bằng chứng
 
