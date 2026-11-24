@@ -1,1 +1,0 @@
-# DEPRECATED - ten file sai dinh dang. File bao cao dung: report/individual/2A202604117_NguyenVanMinh.md .
